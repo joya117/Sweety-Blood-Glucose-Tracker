@@ -12,10 +12,12 @@ const seedDatabase = async () => {
     // Create demo user if it doesn't exist
     const userResult = await pool.query(
       `INSERT INTO users (name, email, password_hash)
-       VALUES ($1, $2, $3)
-       ON CONFLICT (email)
-       DO UPDATE SET name = EXCLUDED.name
-       RETURNING id`,
+   VALUES ($1, $2, $3)
+   ON CONFLICT (email)
+   DO UPDATE SET
+     name = EXCLUDED.name,
+     password_hash = EXCLUDED.password_hash
+   RETURNING id`,
       [name, email, hashedPassword],
     );
 
