@@ -216,6 +216,40 @@ All protected reading endpoints require a valid JWT Bearer token.
 - Automated reminders for glucose measurements.
 - Exportable PDF reports.
 
+## 📸 Application Screenshots
+
+### 1. Login Page
+
+![Login Page](screenshots/Login.png)
+
+### 2. Glucose Dashboard
+
+![Glucose Dashboard](screenshots/Dashboard.png)
+
+### 3. Add New Reading
+
+![Add New Reading](screenshots/New_Reading.png)
+
+### 4. Your Readings
+
+![Your Readings](screenshots/Your_Readings.png)
+
+### 5. Reports Overview
+
+![Reports Overview](screenshots/Report.png)
+
+### 6. Daily Report
+
+![Daily Report](screenshots/Report_Daily.png)
+
+### 7. Month-to-Date Report
+
+![Month-to-Date Report](screenshots/Report_MonthToDate.png)
+
+### 8. Previous Month Report
+
+![Previous Month Report](screenshots/Report_PreviousMonth.png)
+
 ## 👩‍💻 Author
 
 **Joya**
