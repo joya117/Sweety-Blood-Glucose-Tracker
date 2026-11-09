@@ -88,8 +88,8 @@ Assignment/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Assignment
+git clone https://github.com/joya117/Sweety-Blood-Glucose-Tracker.git
+cd Sweety-Blood-Glucose-Tracker
 ```
 
 ### 2. Database Setup
